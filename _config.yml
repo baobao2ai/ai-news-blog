@@ -1,0 +1,20 @@
+title: AI News Daily
+description: Daily digest of the latest in artificial intelligence — research, tools, and industry.
+baseurl: "/ai-news-blog"
+url: "https://baobao2ai.github.io"
+
+theme: minima
+author: AI News Bot
+email: contact@example.com
+
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+paginate: 10
+paginate_path: "/page:num/"
+
+markdown: kramdown
+highlighter: rouge
